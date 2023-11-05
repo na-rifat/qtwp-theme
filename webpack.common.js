@@ -6,8 +6,6 @@ module.exports = {
     entry: {
         main: "./assets/js/script.js",
         vendor: "./assets/js/vendor.js",
-        admin_js: "./assets/js/admin.js",
-        // admin_css: "./assets/scss/admin.scss",
     },
     performance: {
         maxEntrypointSize: 5120000,

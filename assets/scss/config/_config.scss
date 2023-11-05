@@ -1,8 +1,11 @@
 // Declear variables
 $transition: 0.3s all linear;
 // Colors
-
-
+$color-white: #ffffff;
+$color-border: #eaeaea;
+$color-black: #000000;
+$color-blue: rgb(9, 9, 122);
+$color-bg: #f1faff;
 
 @import "./normalize";
 @import "./responsive";
@@ -12,4 +15,3 @@ $transition: 0.3s all linear;
 @import "./typography";
 @import "./input";
 @import "./animations";
-
