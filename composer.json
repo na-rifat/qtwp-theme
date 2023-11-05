@@ -1,0 +1,22 @@
+{
+    "name": "qt/qtwp",
+    "type": "wordpress-theme",
+    "description": "Wordpress theme framework",
+    "keywords": [
+        "WordPress",
+        "Themes"
+    ],
+    "homepage": "https://github.com/Automattic/_s",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=5.6",
+        "htmlburger/carbon-fields": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "qtwp\\": "./inc/controller",
+            "qtwp\\core\\": "./inc/core",
+            "qtwp\\lib\\": "./inc/lib"
+        }
+    }
+}

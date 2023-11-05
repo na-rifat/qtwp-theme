@@ -1,0 +1,49 @@
+{
+    "name": "webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --config webpack.dev.js --open",
+        "dev": "webpack-dev-server --config webpack.dev.js --open",
+        "development": "webpack-dev-server --config webpack.dev.js --open",
+        "build": "webpack --config webpack.prod.js",
+        "prod": "webpack --config webpack.prod.js",
+        "production": "webpack --config webpack.prod.js",
+        "watch": "webpack --watch --progress --config webpack.watch.js"
+    },
+    "keywords": [],
+    "author": "Qutiest",
+    "license": "ISC",
+    "devDependencies": {
+        "aos": "^2.3.4",
+        "case-sensitive-paths-webpack-plugin": "^2.4.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^10.2.4",
+        "counterup2": "^2.0.2",
+        "css-loader": "^6.8.1",
+        "file-loader": "^6.2.0",
+        "gsap": "^3.11.5",
+        "html-loader": "^3.1.0",
+        "html-webpack-plugin": "^5.5.0",
+        "imports-loader": "^4.0.1",
+        "jquery": "^3.6.0",
+        "mini-css-extract-plugin": "^2.7.6",
+        "node-sass": "^9.0.0",
+        "sass-loader": "^13.3.1",
+        "scrollmagic": "^2.0.8",
+        "scrollmagic-plugins": "^1.0.8",
+        "slick-carousel": "^1.8.1",
+        "style-loader": "^3.3.3",
+        "swiper": "^9.4.1",
+        "waypoints": "^4.0.1",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    },
+    "dependencies": {
+        "headroom.js": "^0.12.0",
+        "typed.js": "^2.0.16",
+        "typeit": "^8.7.1"
+    }
+}

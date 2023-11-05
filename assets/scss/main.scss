@@ -1,0 +1,45 @@
+// Configurations
+@import "./config/config";
+
+// libraries
+@import "./lib/aos";
+@import "./lib/slick";
+
+// Layout
+@import "./layout/404";
+@import "./layout/header";
+@import "./layout/footer";
+// components
+@import "./views/all";
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #292929;
+    border-radius: 4px;
+    @include transition;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #202020;
+}
+
+body {
+    overflow: hidden auto;
+}
+
+section {
+    overflow-x: clip;
+    position: relative;
+}
+

@@ -1,0 +1,25 @@
+.dev-tools {
+    .btn-grp {
+        margin-bottom: 40px;
+    }
+    .dev-console {
+        background: #000;
+        list-style-type: square;
+        color: #fff;
+        display: flex;
+        flex-flow: column;
+        gap: 10px;
+        padding: 10px 25px 10px;
+        width: calc(100% - 50px);
+
+        li {
+            &.success {
+                color: green;
+            }
+
+            &.error {
+                color: red;
+            }
+        }
+    }
+}

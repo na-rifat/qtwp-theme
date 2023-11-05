@@ -1,0 +1,108 @@
+// @media (min-width: 768px) {
+//     .container {
+//         width: 750px;
+//     }
+// }
+// @media (min-width: 820px) {
+//     .container {
+//         width: 800px;
+//     }
+// }
+
+// @media (min-width: 992px) {
+//     .container {
+//         width: 970px;
+//     }
+// }
+
+// @media (min-width: 1240px) {
+//     .container {
+//         width: 1200px;
+//     }
+// }
+
+// @media (min-width: 1400px) {
+//     .container {
+//         width: 1320px;
+//     }
+// }
+// @media (min-width: 1800px) {
+//     .container{
+//         width: 1700px;
+//     }
+// }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    // height: 100%;
+}
+
+/* Define a new class for the right-aligned container */
+.right-aligned-container {
+    padding-left: 30px; /* Maintain the same left padding as the regular container */
+    margin-left: auto; /* Move it to the left edge */
+    margin-right: 0; /* Remove right margin to attach it to the right corner */
+}
+
+/* Apply media queries for different screen widths */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    .right-aligned-container {
+        width: 750px; /* Set the width the same as the regular container */
+    }
+}
+
+@media (min-width: 820px) {
+    .container {
+        width: 800px;
+    }
+    .right-aligned-container {
+        width: 800px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .right-aligned-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .container {
+        width: 1200px;
+    }
+    .right-aligned-container {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+    .right-aligned-container {
+        width: 1320px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        width: 1700px;
+    }
+    .right-aligned-container {
+        width: 1700px;
+    }
+}
+
+/* Maintain the same padding for both containers */
+.container {
+    padding-right: 15px;
+}
